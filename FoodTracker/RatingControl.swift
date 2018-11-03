@@ -102,7 +102,6 @@ import UIKit
     
     private func updateButtonSelectionStates() {
         for (index, button) in ratingButtons.enumerated() {
-            print (index < rating)
             // If the index of a button is less than the rating, that button should be selected.
             button.isSelected = index < rating
             
